@@ -2,8 +2,8 @@ const chat = document.getElementById('chat');
 const form = document.getElementById('chat-form');
 const input = document.getElementById('user-input');
 
-const API_KEY = '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'; 
-const MODEL = 'meta-llama/llama-3-70b-instruct';
+const API_KEY = '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'; 
+const MODEL = 'google/gemini-3.1-flash-lite';
 
 function appendMessage(sender, text) {
   const div = document.createElement('div');
